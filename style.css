@@ -1,0 +1,57 @@
+html {
+    background: url(img/fondo.png);
+    background-size: cover;
+}
+
+.fila {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding-bottom: 5px;
+    justify-content: center;
+    align-content: center;
+}
+
+.casilla {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    font-size: 100px;
+    background-color: rgb(183, 190, 195);
+    text-align: center;
+
+
+}
+
+.cabecera {
+    text-align: center;
+    color: black;
+    font-size: large;
+    font: 900;
+
+}
+
+.cajaContadores {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: fit-content;
+    height: fit-content;
+}
+
+.contadorX {
+    size: 100px;
+    color: white;
+    font: 700;
+}
+
+.contadorO {
+    size: 100px;
+    color: white;
+    font: 700;
+
+}
+
+.boton {
+    margin-left: 47.5%;
+}
